@@ -23,6 +23,7 @@ async function getWeaters(city) {
           console.log(data);
           document.querySelector('.suhu').innerHTML = Math.round(data.main.temp) + '°C';
           document.querySelector('.kota').innerHTML = (data.name);
+          document.querySelector('.country').innerHTML = "country ="+(data.sys.country);
           document.querySelector('.kelembapan').innerHTML = Math.round(data.main.humidity) + '%';
           document.querySelector('.deskripsi').innerHTML = (data.weather[0].description);
           document.querySelector('.wind').innerHTML = Math.round(data.wind.speed) + "km/h";
