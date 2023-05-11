@@ -109,6 +109,9 @@ img {
   margin-top: 2%;
 
 }
+.country{
+  color: #a03535;
+}
 .error{
   color: red;
   display: none;
