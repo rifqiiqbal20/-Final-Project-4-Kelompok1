@@ -4,6 +4,10 @@
 body {
   background-image: url(gambar/bg.jpg);
 }
+marquee{
+  color: #fff;
+  background-color: #650502;
+}
 h1{
   padding: 2%;
   color: #ffaf01;
