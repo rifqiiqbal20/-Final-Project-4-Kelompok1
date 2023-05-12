@@ -256,4 +256,7 @@ to {
   .animasi-room img {
   width: 2rem;
 }
+  body {
+  background: none;
+}
 }
