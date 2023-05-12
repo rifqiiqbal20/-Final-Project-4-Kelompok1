@@ -257,6 +257,6 @@ to {
   width: 2rem;
 }
   body {
-  background: none;
+  height: 100vh;
 }
 }
