@@ -253,4 +253,7 @@ to {
   .center{
     height: 100%;
   }
+  .animasi-room img {
+  width: 2rem;
+}
 }
